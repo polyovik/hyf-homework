@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 40px;
+}
+
+/* .container {
+  margin-left: 100px;
+  margin-right: 100px;
+} */
+
+/* Info Section */
+
+.info {
+  margin: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.personal-info ul {
+  line-height: 30px;
+  font-size: 20px;
+  padding: 0 0 30px 0;
+}
+
+.personal-info li {
+  list-style-type: none;
+}
+
+.my-photo {
+  height: 400px;
+}
+
+.my-photo img {
+  border-radius: 50%;
+  height: 100%;
+  filter: grayscale(100%);
+}
+
+.personal-info a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+.personal-info a:hover {
+  filter: invert(0.5);
+}
+
+/* Experience Section */
+
+.experience-info {
+  margin: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.education {
+    border-radius: 2px;
+    border-color: black;
+}
+
+
+.education li {
+    list-style-type: none;
+}
+
+.education li:first-child {
+    font-weight: 900;
+}
+
+.education ul {
+    line-height: 30px;
+    padding: 0;
+}
+
+.work-experience li {
+    list-style-type: none;
+}
+
+.work-experience li:first-child {
+    font-weight: 900;
+}
+
+.work-experience ul {
+    line-height: 30px;
+    padding: 0;
+}
+
+/* Skills Section */
+
+.skills-info {
+  padding: 0 100px 0 250px;
+  margin-top: 50px;
+  
+}
+
+.skills-info li {
+  list-style-type: none;
+}
