@@ -3,61 +3,65 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  margin: 50px;
+  margin: 3.125rem;
 }
 
 progress {
   background-color: #9b9b9b;
-  height: 50px;
+  height: 3.125rem;
   width: 100%;
 }
 
 img {
-  height: 300px;
+  height: 18.75rem;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 3.125rem;
 }
 
 h3 {
-  font-size: 35px;
+  font-size: 2.188rem;
 }
 
 p {
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 label {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 900;
-  padding-right: 15px;
+  padding-right: 0.938rem;
 }
 
 input {
-  height: 40px;
-  width: 350px;
+  height: 2.5rem;
+  width: 21.875rem;
 }
 
 button {
-    width: 280px;
-    padding: 30px;
+    width: 17.5rem;
+    padding: 1.875rem;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 1.375rem;
     cursor: pointer;
 }
 
+button a {
+  text-decoration: none;
+  color: #000000;
+}
+
 button:hover {
-    color: #f0f8ff;
-    background-color: #353333;
+    background-color: #94b794;
 }
 
 .navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-height: 30px;
+    max-height: 1.875rem;
 }
 
 progress {
@@ -65,14 +69,14 @@ progress {
 }
 
 .submit-content input, .style-images input, .news-buttons input, .items-checkboxes input{
-    width: 50px;
+    width: 3.125rem;
     cursor: pointer;
 }
 
 /* Info Form */
 
 .info-text {
-  max-width: 500px;
+  max-width: 31.25rem;
   max-width: 60%;
 }
 
@@ -82,12 +86,12 @@ progress {
 }
 
 .info-content div {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .info-content select {
-  height: 40px;
-  width: 250px;
+  height: 2.5rem;
+  width: 15.625rem;
   cursor: pointer;
 }
 
@@ -100,19 +104,19 @@ progress {
  
 
 .profile-description-content {
-  margin-top: 100px;
-  padding: 0 20px;
+  margin-top: 6.25rem;
+  padding: 0 1.25rem;
   display: flex;
 }
 
 .profile-description-content p {
-  font-size: 15px;
-  max-width: 200px;
-  line-height: 20px;
+  font-size: 0.938rem;
+  max-width: 12.5rem;
+  line-height: 1.25rem;
 }
 
 .submit-content {
-    padding: 0 20px;
+    padding: 0 1.25rem;
     display: flex;
     justify-content: space-between;
 }
@@ -130,7 +134,7 @@ progress {
   }
   
   .contacts-content div {
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
 
   .contacts-content div div:nth-child(1), .contacts-content div div:nth-child(2), .contacts-content div div:nth-child(3) {
@@ -142,17 +146,17 @@ progress {
 
   .news-buttons {
     display: flex;
-    padding-left: 100px;
+    padding-left: 6.25rem;
   }
 
   .news-buttons div {
     display: flex;
     align-items: center;
-    padding-right: 30px;
+    padding-right: 1.875rem;
   }
 
   .contacts-submit-button {
-    margin-top: 100px;
+    margin-top: 6.25rem;
     display: flex;
     justify-content: flex-end;
   }
@@ -161,11 +165,11 @@ progress {
 
   .items-checkboxes {
     display: flex;
-    margin: 0 0 30px 100px;
+    margin: 0 0 1.875rem 6.25rem;
   }
 
   .items-checkboxes div {
-    padding-left: 50px;
+    padding-left: 3.125rem;
   }
 
   .items-checkboxes div div {
@@ -181,8 +185,8 @@ progress {
   }
 
   .style-images-content {
-    margin-bottom: 50px;
-    padding-right: 30px;
+    margin-bottom: 3.125rem;
+    padding-right: 1.875rem;
   }
 
   .style-images-content div {
@@ -193,7 +197,7 @@ progress {
 
   
   .preferences-submit-button {
-    margin-top: 30px;
+    margin-top: 1.875rem;
     display: flex;
     justify-content: flex-end;
   }
@@ -202,7 +206,7 @@ progress {
   @media screen and (max-width: 1100px) {
 
     h1 {
-      margin-top: 50px;
+      margin-top: 3.125rem;
     }
 
     /* Info Form */
@@ -221,7 +225,7 @@ progress {
     }
 
     .news-buttons div {
-      padding-top: 20px;
+      padding-top: 1.25rem;
     }
     
     /* Preferences Form */
@@ -243,7 +247,7 @@ progress {
     }
 
     h1 {
-      font-size: 35px;
+      font-size: 2.188rem;
     }
 
 
@@ -269,7 +273,7 @@ progress {
     }
 
     .submit-content button {
-      margin-top: 20px;
+      margin-top: 1.25rem;
     }
   }
 
