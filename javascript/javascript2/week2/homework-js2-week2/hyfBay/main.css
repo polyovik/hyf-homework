@@ -1,0 +1,152 @@
+body {
+  font-family: 'Syne Mono', monospace;
+  background-color: #f9fbfd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000000;
+  color: #ffffff;
+  height: 6.25rem;
+}
+
+.header-text {
+  display: flex;
+  justify-content: center;
+}
+
+.header-text h1 {
+  margin: 1.875rem;
+  text-transform: uppercase;
+}
+
+.products .inputs-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3.125rem;
+}
+
+.search-products {
+  padding: 1.25rem;
+  width: 18.75rem;
+  margin-right: 1.875rem;
+  height: 3.125rem;
+}
+
+.max-price {
+  padding: 1.25rem;
+  width: 18.75rem;
+  margin-right: 1.875rem;
+  height: 3.125rem;
+}
+
+.reset-button {
+  width: 6.25rem;
+  height: 3.125rem;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 0.313rem;
+}
+
+.reset-button:hover {
+  cursor: pointer;
+  background-color: #606060;
+}
+
+.results {
+  margin: 6.25rem;
+}
+
+.results .products-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.products-list ul {
+  padding: 0.938rem;
+  margin: 2.5rem;
+  border: 0.063rem solid #000000;
+  border-radius: 0.313rem;
+  width: 12.5rem;
+  height: 9.375rem;
+}
+
+.products-list ul:hover {
+  color: #ffffff;
+  background-color: #000000;
+  font-size: 1.25rem;
+  width: 15.625rem;
+  height: 11.25rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.products-list:hover ul {
+  filter: blur(0.313rem);
+}
+
+.products-list ul:hover {
+  filter: blur(0);
+}
+
+@media only screen and (max-width: 780px) {
+  .inputs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .max-price,
+  .reset-button {
+    margin-top: 1.25rem;
+  }
+
+  .products-list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .products-list ul {
+    padding: 0.938rem;
+    margin: 0.5rem;
+    border: 0.063rem solid #000000;
+    border-radius: 0.313rem;
+    width: 12.5rem;
+    height: 9.375rem;
+  }
+}
+
+@media only screen and (max-width: 648px) {
+  .products-list ul {
+    height: 11rem;
+    width: 19.5rem;
+    padding: 2.063rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .products-list ul:hover {
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 1.45rem;
+    width: 20rem;
+    height: 13.50rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+}
