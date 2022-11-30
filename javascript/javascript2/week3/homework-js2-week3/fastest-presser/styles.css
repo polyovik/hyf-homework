@@ -1,0 +1,86 @@
+body {
+  font-family: 'Syne Mono', monospace;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.score-board {
+  margin: 5rem 9.375rem 0 9.375rem;
+  display: flex;
+}
+
+.score-board div {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px;
+  width: 50%;
+  height: 18.75rem;
+}
+
+.left-side,
+.right-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.875rem;
+}
+
+.left-side p, .right-side p {
+    animation: skew-y-shake 5s infinite;;
+}
+
+@keyframes skew-y-shake {
+    0% { transform: skewY(-8deg); }
+    5% { transform: skewY(8deg); }
+    10% { transform: skewY(-8deg); }
+    15% { transform: skewY(8deg); }
+    20% { transform: skewY(0deg); }
+    100% { transform: skewY(0deg); }  
+  }
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs * {
+  margin: 0.625rem;
+  align-self: center;
+}
+
+.inputs input {
+  width: 18.75rem;
+  height: 3.125rem;
+  box-shadow: 0.313rem 0.625rem;
+  text-align: center;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+
+
+.start-button, .reset-button {
+  width: 12.5rem;
+  height: 3.125rem;
+  background-color: #3ece8e;
+  color: #ffff;
+  border: none;
+  font-size: 1.25rem;
+}
+
+.start-button:hover, .reset-button:hover {
+    background-color: #26fd9c;
+    cursor: pointer;
+}
+
+canvas {
+  position: absolute;
+  width: 37.5rem;
+}
