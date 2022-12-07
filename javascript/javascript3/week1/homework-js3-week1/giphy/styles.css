@@ -1,0 +1,46 @@
+li {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.625rem;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #34a371;
+}
+
+.gifs-search {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .gifs-search * {
+    margin: 0.625rem;
+    align-self: center;
+  }
+  
+  .search, .number-of-gifs {
+    width: 18.75rem;
+    height: 3.125rem;
+    box-shadow: 0.313rem 0.625rem;
+    text-align: center;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+  }
+  
+  .search-button {
+    width: 12.5rem;
+    height: 3.125rem;
+    background-color: #3ece8e;
+    color: #ffff;
+    border: none;
+    font-size: 1.25rem;
+  }
+  
+  .search-button:hover {
+      background-color: #26fd9c;
+      cursor: pointer;
+  }
+
