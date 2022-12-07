@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="search-container">
+        <input class="city-search" type="text" placeholder="Your city">
+        <button class="search-button">Show Weather</button>
+    </div>
+    <div class="weather-container">
+        <div class="weather-main-info">
+            <h1 class="city-name"></h1>
+            <h2 class="temperature"></h2>
+            <img class="icon" src="" alt="">
+        </div>
+        <div class="weather-other-info">
+            <div>
+                <p class="wind-speed"></p>
+                <p class="humidity"></p>
+            </div>
+            <div>
+                <p class="clouds"></p>
+                <p class="sunrise-sunset"></p>
+            </div>
+        </div>
+        <div id="map"></div>
+
+    </div>
+    
+
+    <script src="./weather.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBW2umimZdbckGGbJ8xeRv0EqYjwgaEwsY&libraries=&v=weekly"></script>
+</body>
+
+</html>

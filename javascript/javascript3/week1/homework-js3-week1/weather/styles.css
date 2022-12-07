@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Concert+One&family=Merriweather&family=Oswald&family=Roboto:wght@400;500;700;900&family=Rubik+Dirt&family=Syne+Mono&family=Ultra&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #a3acec;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .search-container * {
+    margin: 0.625rem;
+    align-self: center;
+  }
+
+.city-search {
+    width: 18.75rem;
+    height: 3.125rem;
+    text-align: center;
+    font-size: 1.25rem;
+  }
+  
+  .search-button {
+    width: 12.5rem;
+    height: 3.125rem;
+    background-color: #6676eb;
+    color: #ffff;
+    border: none;
+    font-size: 1.25rem;
+  }
+
+  .search-button:hover {
+    background-color: #5e69c2;
+    cursor: pointer;
+}
+
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather-main-info {
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.weather-main-info * {
+    margin-right: 2.5rem;
+}
+
+.city-name {
+    color: #ffffff;
+    font-size: 5rem;
+}
+
+.temperature {
+    font-size: 5rem;
+}
+
+.weather-other-info {
+    display: flex;
+}
+
+.weather-other-info * {
+    margin-right: 1.25rem;
+}
+
+#map {
+    margin: 3.125rem;
+    height: 12.5rem;
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+}
