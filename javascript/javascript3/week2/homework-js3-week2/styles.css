@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Concert+One&family=Merriweather&family=Oswald&family=Roboto:wght@400;500;700;900&family=Rubik+Dirt&family=Syne+Mono&family=Ultra&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.currency-converter {
+    display: flex;
+    justify-content: center;
+    margin: 6.25rem;
+    align-items: flex-end;
+}
+
+.currency-converter *{
+    margin-right: 1.25rem;
+}
+
+.select-base-currency {
+    margin: 0;
+}
+
+.amount-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.amount-container label, .select-base-currency label, .select-target-currency label {
+    font-size: 1.875rem;
+}
+
+.amount {
+    height: 3.75rem;
+    width: 12.5rem;
+    font-size: 1.875rem;
+    padding: 1.125rem;
+}
+
+.convert-from, .convert-to {
+    height: 3.75rem;
+    width: 6.25rem;
+    font-size: 1.25rem;
+}
+
+.convertion-button {
+    height: 5rem;
+    width: 11.25rem;
+    background-color: #9d9de3;
+    color: #eeeeff;
+    border-style: none;
+    border-radius: 0.313rem;
+    font-size: 1.563rem;
+    cursor: pointer;
+}
+
+.convertion-button:hover, .change-currency-button:hover {
+    background-color: #8080e5;
+}
+
+
+.change-currency-button {
+    height: 5rem;
+    width: 5rem;
+    background-color: #9d9de3;
+    border-style: none;
+    border-radius: 0.313rem;
+    cursor: pointer;
+}
+
+.change-currency-button svg {
+    margin: 0;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.converted-currency {
+    font-size: 3.125rem;
+    margin: 0;
+}
+
+.rate {
+    font-size: 1.875;
+}
