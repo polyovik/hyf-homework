@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="currency-converter">
+        <div class="amount-container">
+            <label for="amount">Amount</label>
+            <input class="amount" type="text" value="1">
+        </div>
+
+        <div class="select-base-currency">
+            <label for="from">From</label>
+            <div>
+                <select class="convert-from">
+
+                </select>
+            </div>
+        </div>
+
+
+        <button class="change-currency-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21" width="30"
+            height="30">
+            <path fill="none" d="M0 0h24v24H0z" />
+            <path
+                d="M16.05 12.05L21 17l-4.95 4.95-1.414-1.414 2.536-2.537L4 18v-2h13.172l-2.536-2.536 1.414-1.414zm-8.1-10l1.414 1.414L6.828 6 20 6v2H6.828l2.536 2.536L7.95 11.95 3 7l4.95-4.95z"
+                fill="rgba(238,238,255,1)" /></svg>
+        </button>
+
+        <div class="select-target-currency">
+            <label for="to">To</label>
+            <div>
+                <select class="convert-to">
+
+                </select>
+            </div>
+        </div>
+
+        <button class="convertion-button">Convert</button>
+    </div>
+    <div class="results">
+        <h1 class="converted-currency"></h1>
+        <h5 class="rate"></h5>
+    </div>
+    <script src="./currency.js"></script>
+</body>
+
+</html>

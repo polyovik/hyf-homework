@@ -1,0 +1,64 @@
+.screenshot-section {
+    display: none;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.url-input {
+    height: 30px;
+    width: 500px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.get-screenshot-button, .save-button, .get-list {
+    margin-left: 20px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.screenshot-container {
+    display: flex;
+    height: 500px;
+    margin: 30px 100px;
+    justify-content: center;
+}
+
+.screenshot {
+    height: 100%;
+}
+
+.all-screenshots {
+    width: 50%;
+}
+
+.screenshot-list-img {
+    height: 100%;
+    width: 100%;
+}
+
+.loading {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: lightgrey;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loading img {
+    border-radius: 50%;
+  }
+
+  .sign-section {
+    display: flex;
+    justify-content: space-around;
+}
